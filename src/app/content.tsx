@@ -6,7 +6,7 @@ import { Body } from "../../templates/home/Body";
 
 export const Content = () => {
   return (
-    <Box bgColor="color.black">
+    <Box bgColor="rgba(0, 0, 0, 1)">
       <Header />
       <Body />
     </Box>
