@@ -5,7 +5,7 @@ import { Individual } from "./Individual";
 
 export const Decentralized = () => {
   return (
-    <Flex flex="1" >
+    <Flex flex="1">
       <Box>
         <Tabs variant="unstyled">
           <TabList>
@@ -37,6 +37,7 @@ export const Decentralized = () => {
               <Individual />
             </TabPanel>
             <TabPanel>
+              <Individual />
               {/* <p>two!</p> */}
             </TabPanel>
           </TabPanels>
